@@ -1,14 +1,15 @@
 class student:
-name = "kprit"
-age = 15
-def read(self):
-age = 20
-print("self.age)
-print("reading")
-def write (self):
-print("writing")
+  name = "kprit"
+  age = 15
+  def read(self):
+    age = 20
+    print("self.age")
+    print("reading")
+  def write (self):
+    print("writing")
+    print("self.age")
 s1 = student()
 print(s1.name)
-print(s2.age)
+print(s1.age)
 s1.read()
 s1.write
